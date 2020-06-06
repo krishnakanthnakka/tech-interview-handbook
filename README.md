@@ -1,4 +1,4 @@
-<h1 align="center">Tech Interview Handbook</h1>
+<h1 align="center">Tech Interview Handbook (New)</h1>
 
 <div align="center">
   <a href="https://yangshun.github.io/tech-interview-handbook/">
