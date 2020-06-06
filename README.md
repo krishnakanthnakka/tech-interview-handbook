@@ -28,4 +28,4 @@
 
 ## Disclaimer
 
-This repository is cloned from original author Yangshun. I am providing code in the repository to you under an open source license.
+This repository is cloned from original author Yangshun. I have added few more topics that I'm learning currently.
