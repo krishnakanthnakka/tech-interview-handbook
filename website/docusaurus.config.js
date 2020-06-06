@@ -2,10 +2,10 @@ module.exports = {
   title: 'Tech Interview Handbook',
   tagline:
     'Carefully curated content to help you ace your next technical interview',
-  url: 'https://yangshun.github.io',
+  url: 'https://krishnakanthnakka.github.io',
   baseUrl: '/tech-interview-handbook/',
   favicon: 'img/favicon.png',
-  organizationName: 'yangshun',
+  organizationName: 'krishnakanthnakka',
   projectName: 'tech-interview-handbook',
   themeConfig: {
     prism: {
@@ -22,7 +22,7 @@ module.exports = {
         {to: 'introduction', label: 'Getting Started', position: 'right'},
         {to: 'blog', label: 'Blog', position: 'right'},
         {
-          href: 'https://github.com/yangshun/tech-interview-handbook',
+          href: 'https://github.com/krishnakanthnakka/tech-interview-handbook',
           label: 'GitHub',
           position: 'right',
         },
@@ -37,7 +37,7 @@ module.exports = {
     },
     algolia: {
       apiKey: 'bd359779d1c4c71ade6062e8f13f5a83',
-      indexName: 'yangshun-tech-interview',
+      indexName: 'krishnakanthnakka-tech-interview',
     },
     announcementBar: {
       id: 'black_lives_matter',
@@ -56,7 +56,7 @@ module.exports = {
           routeBasePath: '',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/yangshun/tech-interview-handbook/edit/master/contents/',
+            'https://github.com/krishnakanthnakka/tech-interview-handbook/edit/master/contents/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
