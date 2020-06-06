@@ -12,3 +12,4 @@ Coding interviews are tough. But fortunately, there's a tried and proven method 
 1. Know what [signals and behaviors](./coding-signals.md) interviewers are looking out for
 1. Practice doing mock interviews
 1. Interview successfully to get the job
+1. Update
