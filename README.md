@@ -27,7 +27,7 @@
 
 Carefully curated content to help you ace your next technical interview, with a focus on algorithms. System design questions are in-progress. Besides the usual algorithm questions, other **awesome** stuff includes:
 
-- [How to prepare](https://yangshun.github.io/tech-interview-handbook/coding-round-overview) for coding interviews
+- [How to prepare](https://krishnakanthnakka.github.io/tech-interview-handbook/coding-round-overview) for coding interviews
 - [Interview Cheatsheet](https://yangshun.github.io/tech-interview-handbook/cheatsheet) - Straight-to-the-point Do's and Don'ts
 - [Algorithm tips and the best practice questions](https://yangshun.github.io/tech-interview-handbook/algorithms/algorithms-introduction) categorized by topic
 - ["Front-end Job Interview Questions" answers](https://github.com/yangshun/front-end-interview-handbook)
