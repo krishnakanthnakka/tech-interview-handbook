@@ -33,7 +33,7 @@ function Home() {
           </div>
           <div className="margin-top--lg">
             <iframe
-              src="https://ghbtns.com/github-btn.html?user=yangshun&amp;repo=tech-interview-handbook&amp;type=star&amp;count=true&amp;size=large"
+              src="https://ghbtns.com/github-btn.html?user=krishnakanthnakka&amp;repo=tech-interview-handbook&amp;type=star&amp;count=true&amp;size=large"
               frameBorder={0}
               scrolling={0}
               width={160}
