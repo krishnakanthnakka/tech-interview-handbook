@@ -47,6 +47,3 @@ Be familiar with the following routines because many linked list questions make 
 - [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 - [Reorder List](https://leetcode.com/problems/reorder-list/)
 
-## Discusssion
-
-The page iss updated
