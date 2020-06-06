@@ -1,42 +1,43 @@
 module.exports = {
   docs: {
-    Preface: ['introduction', 'landscape'],
-    'Job Application': [
-      // 'how-to-apply',
-      'resume',
-      'cover-letter',
-    ],
-    'Interview Process': [
-      'interview-formats',
-      'self-introduction',
-      {
-        type: 'category',
-        label: 'Coding Round',
-        items: [
-          'coding-round-overview',
-          'picking-a-language',
-          'study-and-practice',
-          'best-practice-questions',
-          'during-coding-interview',
-          'cheatsheet',
-          'coding-signals',
-          'mock-interviews',
-          'interviewer-cheatsheet',
-        ],
-      },
-      {
-        type: 'category',
-        label: 'Behavioral Round',
-        items: [
-          'behavioral-round-overview',
-          'star-format',
-          'behavioral-questions',
-          'psychological-tricks',
-        ],
-      },
-      'questions-to-ask',
-    ],
-    'Post Interview': ['understanding-compensation', 'negotiation'],
+    //Preface: ['introduction', 'landscape'],
+    // 'Job Application': [
+    //   // 'how-to-apply',
+    //   'resume',
+    //   'cover-letter',
+    // ],
+
+    // 'Interview Process': [
+    //   'interview-formats',
+    //   'self-introduction',
+    //   {
+    //     type: 'category',
+    //     label: 'Coding Round',
+    //     items: [
+    //       'coding-round-overview',
+    //       'picking-a-language',
+    //       'study-and-practice',
+    //       'best-practice-questions',
+    //       'during-coding-interview',
+    //       'cheatsheet',
+    //       'coding-signals',
+    //       'mock-interviews',
+    //       'interviewer-cheatsheet',
+    //     ],
+    //   },
+    //   {
+    //     type: 'category',
+    //     label: 'Behavioral Round',
+    //     items: [
+    //       'behavioral-round-overview',
+    //       'star-format',
+    //       'behavioral-questions',
+    //       'psychological-tricks',
+    //     ],
+    //   },
+    //   'questions-to-ask',
+    // ],
+    //'Post Interview': ['understanding-compensation', 'negotiation'],
     Algorithms: [
       'algorithms/algorithms-introduction',
       'algorithms/array',
@@ -60,5 +61,10 @@ module.exports = {
       'algorithms/tree',
       'algorithms/trie',
     ],
+
+    Coding: [
+      'coding/basics'
+    ],
+
   },
 };
