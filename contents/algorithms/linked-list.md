@@ -49,4 +49,4 @@ Be familiar with the following routines because many linked list questions make 
 
 ## Discusssion
 
-Yo
+The page iss updated
