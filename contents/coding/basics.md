@@ -14,6 +14,18 @@ vector<bool> count(26, false);
 vector<vector<bool> visited(M, vector<bool>(N, false)) # MxN matrix with initialized to false
 ```
 
+- vector operations
+
+```py
+vector<vector<int>> result;
+# first argument is iterator to the target position
+result.erase(result.begin() + i);  # remove element at position i
+result.insert(result.begin() + n, x);  # insert x at nth position
+v.insert(v.end(), vals.begin(), vals.end());    # insert vector vals at the end of vector v
+
+
+```
+
 - Declare a **min heap** that has minimum element at the root
 ```py
 std::priority_queue<int, std::vector<int>, std::greater<int>> min_heap;
@@ -26,7 +38,7 @@ stack<pair<int, int>> st;
 st.push({a,b});
 ```
 
-- Do not return Pointer to local array. Instead use malloc to create memory for variable
+- Do not return pointer to local array. Instead use malloc to create memory for the variable.
 ```py
 #  Fails
 int V;
@@ -49,4 +61,97 @@ for (auto i: adj[src]){
 }
 ```
 
+- Sort a vector of vectors by custom rules
+```py
 
+#Input:  [[7,0], [4,4], [7,1], [5,0], [6,1], [5,2]]
+#Sort by value in second column in descending order and arrange by acescening if values are equal
+
+bool (const vector<int>& a, const vector<int>& b){
+    return (a[0] > b[0] || (a[0] == b[0] && a[1] < b[1]));
+}
+
+sort(people.begin(),people.end(),sortbyheight);
+#Output: [[7,0], [7,1], [6,1], [5,0], [5,2], [4,4]]
+
+#Can also be written in more commonly used form
+sort(people.begin(),people.end(), [](const vector<int>& a, const vector<int>& b){
+    return (a[0] > b[0] || (a[0] == b[0] && a[1] < b[1]));
+});
+
+```
+
+- Generate a random number in range [0,sum)
+```py
+int p = rand() % sum;
+```
+
+- Check the index at which is value is greater than previous and lower than current
+```py
+auto it=lower_bound(v.begin(),v.end(),n);
+return it-v.begin();
+```
+
+-  return a sliced vector, say first K elements
+```py
+vector<vector<int>> points;
+vector<vector<int>> result(points.begin(),points.begin()+K);
+# more precisely
+return vector<vector<int>>(points.begin(),points.begin()+K);
+# Even better (inplace resize to first K elements)
+points.resize(K);
+return points
+```
+
+- make sure index pointer do not crosss bounds
+```py
+vector<int> history;
+# move pos back by amount steps
+pos = max(0, pos - steps);
+#move foward by amount steps
+pos = min(history.size() - 1, pos + steps);
+```
+
+
+- Hash Map common operations
+
+```py
+map<int, int> map;
+
+#iterator to map
+auto p = mp.find(key);
+
+#access value by iterator
+if (p != mp.end())
+    return {p->second, i};
+
+#check if key exists
+if(map.find(key)==map.end())
+    return false;
+
+# erase key
+map.erase(key);
+```
+
+- get a random element from vector
+```py
+vector<int> nums;
+nums[rand()%nums.size()];
+```
+
+```py
+
+# 2D hash map, with each element equal to set of elements. Multiset to repeat elements
+map<int, map<int, multiset<int>>> Hmap;
+
+
+Hmap[column][row].insert(root->val);
+
+for (auto keyvals: Hmap){
+    vector<int> v;
+    for (auto vals : keyvals.second){
+        v.insert(v.end(), vals.second.begin(), vals.second.end());
+    }
+    pruned.push_back(v);
+}
+```
