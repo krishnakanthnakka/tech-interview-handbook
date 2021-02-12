@@ -5,7 +5,7 @@ title: Introduction
 
 ## What is this?
 
-The **Tech Interview Handbook** contains carefully curated content to help you ace your next technical interview with a focus on algorithms. While there are a ton of interview resources on the internet, the best ones are either not free, or they do not cover the complete interview process, usually only focusing on algorithms.
+The **Tech Interview Handbook** contains carefully highly curated content to help you ace your next technical interview with a focus on algorithms. While there are a ton of interview resources on the internet, the best ones are either not free, or they do not cover the complete interview process, usually only focusing on algorithms.
 
 ## Why do I want this?
 
