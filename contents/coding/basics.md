@@ -141,7 +141,7 @@ nums[rand()%nums.size()];
 
 ```py
 
-# 2D hash map, with each element equal to set of elements. Multiset to repeat elements
+# 2D hash map, with each 2D key poisition contains set of elements. Multiset to repeat elements
 map<int, map<int, multiset<int>>> Hmap;
 
 
