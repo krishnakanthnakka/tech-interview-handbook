@@ -22,8 +22,6 @@ vector<vector<int>> result;
 result.erase(result.begin() + i);  # remove element at position i
 result.insert(result.begin() + n, x);  # insert x at nth position
 v.insert(v.end(), vals.begin(), vals.end());    # insert vector vals at the end of vector v
-
-
 ```
 
 - Declare a **min heap** that has minimum element at the root
@@ -139,15 +137,16 @@ vector<int> nums;
 nums[rand()%nums.size()];
 ```
 
+- 2D hash map, with each 2D key poisition contains set of elements. Multiset to repeat elements
+
 ```py
 
-# 2D hash map, with each 2D key poisition contains set of elements. Multiset to repeat elements
 map<int, map<int, multiset<int>>> Hmap;
 
 
 Hmap[column][row].insert(root->val);
 
-# to access such hash map with each key by keys
+# to access such hash map with each key by key
 for (auto keyvals: Hmap){
     vector<int> v;
     for (auto vals : keyvals.second){
