@@ -147,7 +147,7 @@ map<int, map<int, multiset<int>>> Hmap;
 
 Hmap[column][row].insert(root->val);
 
-# to access such hash maps
+# to access such hash map with each key by keys
 for (auto keyvals: Hmap){
     vector<int> v;
     for (auto vals : keyvals.second){
