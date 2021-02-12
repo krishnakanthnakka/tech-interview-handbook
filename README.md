@@ -9,4 +9,4 @@
 
 ## Disclaimer
 
-This repository is cloned from original author Yangshun. I have added few more topics that I'm learning currently.
+This repository is cloned from original author Yangshun (GITHUB). I have added few more topics that I'm learning currently.
