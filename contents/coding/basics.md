@@ -116,6 +116,16 @@ pos = min(history.size() - 1, pos + steps);
 ```py
 map<int, int> map;
 
+
+#insert a key, value pair
+map.insert(pair<int, int>(key, value));
+
+# Iterate through a hash map
+vector<pair<string, int> > A;
+for (auto& it : map) {
+        A.push_back(it);
+}
+
 #iterator to map
 auto p = mp.find(key);
 
@@ -137,7 +147,7 @@ vector<int> nums;
 nums[rand()%nums.size()];
 ```
 
-- 2D hash map, with each 2D key poisition contains set of elements. Multiset to repeat elements
+- 2D hash map, with each 2D key position contains set of elements. Multiset to repeat elements
 
 ```py
 
@@ -155,3 +165,20 @@ for (auto keyvals: Hmap){
     pruned.push_back(v);
 }
 ```
+- LONG_MIN, LONG_MAX for assigning to maximum and minimum numbers
+- INT_MIN, INT_MAX for assigning to standard minimum and maximum
+
+
+
+- Sorting a Map by value in C++ STL.
+
+Always a vector of pairs and sort the vector by second value or first value.
+
+https://www.geeksforgeeks.org/sorting-a-map-by-value-in-c-stl/
+
+Method 1 – using the vector of pairs The idea is to copy all contents from the map to the corresponding vector of pairs and sort the vector of pairs according to second value using the lambda function given below:
+
+
+
+- In BINARY SEARCH, Check the terminations conditions for while loop aand return condition of low+1;
+
