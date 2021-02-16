@@ -19,6 +19,9 @@ Some helpful utility snippets:
 - Toggle the k<sup>th</sup> bit: `num ^= (1 << k)`.
 - To check if a number is a power of 2, `num & num - 1 == 0`.
 
+- [GFG Tricks1](https://www.geeksforgeeks.org/bitwise-hacks-for-competitive-programming/)
+- [GFG Tricks2](https://www.geeksforgeeks.org/bit-tricks-competitive-programming/)
+
 ## Corner cases
 
 - Be aware and check for overflow/underflow
