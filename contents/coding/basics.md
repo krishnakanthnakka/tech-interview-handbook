@@ -182,3 +182,5 @@ Method 1 – using the vector of pairs The idea is to copy all contents from the
 
 - In BINARY SEARCH, Check the terminations conditions for while loop aand return condition of low+1;
 
+- Chnaged
+
